@@ -4,7 +4,7 @@ import { Transition } from "@headlessui/react";
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div>
+    <div className="sticky top-0 z-10">
       <nav className="bg-cyan-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
@@ -28,17 +28,10 @@ function Header() {
                   </a>
 
                   <a
-                    href="#"
+                    href="/about"
                     className="text-white text-lg hover:bg-cyan-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     About
-                  </a>
-
-                  <a
-                    href="#"
-                    className="text-white text-lg hover:bg-cyan-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Contact
                   </a>
                 </div>
               </div>
@@ -117,17 +110,10 @@ function Header() {
                 </a>
 
                 <a
-                  href="#"
+                  href="/about"
                   className="text-gray-300 hover:bg-cyan-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   About
-                </a>
-
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-cyan-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Contact
                 </a>
               </div>
             </div>
