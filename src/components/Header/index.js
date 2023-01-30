@@ -21,14 +21,14 @@ function Header() {
                     Home
                   </a>
                   <a
-                    href="/work"
+                    href="/portfolio/work"
                     className="text-white text-lg hover:bg-cyan-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Work
                   </a>
 
                   <a
-                    href="/about"
+                    href="/portfolio/about"
                     className="text-white text-lg hover:bg-cyan-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     About
@@ -103,14 +103,14 @@ function Header() {
                 </a>
 
                 <a
-                  href="/work"
+                  href="/portfolio/work"
                   className="text-gray-300 hover:bg-cyan-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Work
                 </a>
 
                 <a
-                  href="/about"
+                  href="/portfolio/about"
                   className="text-gray-300 hover:bg-cyan-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   About

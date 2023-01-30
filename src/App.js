@@ -14,9 +14,9 @@ function App() {
         <div className="flex-1 overflow-y-auto bg-gray-700 ">
           <div className="flex flex-col flex-nowrap">
             <Routes>
-              <Route path="/portfolio" element={<Home />} />
-              <Route path="/work/" element={<Work />} />
-              <Route path="/about" element={<About />} />
+              <Route path="/portfolio/" element={<Home />} />
+              <Route path="/portfolio/work/" element={<Work />} />
+              <Route path="/portfolio/about/" element={<About />} />
             </Routes>
           </div>
         </div>
