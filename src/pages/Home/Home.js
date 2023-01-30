@@ -16,7 +16,7 @@ function Home() {
             </span>{" "}
             or read more{" "}
             <span className="bg-cyan-400 text-black hover:bg-cyan-300 hover:text-white">
-              <a href="/work">About</a>
+              <a href="/about">About</a>
             </span>{" "}
             me
           </p>
