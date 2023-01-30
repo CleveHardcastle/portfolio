@@ -15,20 +15,20 @@ function Header() {
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <a
-                    href="/portfolio"
+                    href="/"
                     className="text-white text-lg hover:bg-cyan-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Home
                   </a>
                   <a
-                    href="/portfolio/work"
+                    href="/work"
                     className="text-white text-lg hover:bg-cyan-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Work
                   </a>
 
                   <a
-                    href="/portfolio/about"
+                    href="/about"
                     className="text-white text-lg hover:bg-cyan-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     About
@@ -96,21 +96,21 @@ function Header() {
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
-                  href="/portfolio"
+                  href="/"
                   className="hover:bg-cyan-300 text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Home
                 </a>
 
                 <a
-                  href="/portfolio/work"
+                  href="/work"
                   className="text-gray-300 hover:bg-cyan-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Work
                 </a>
 
                 <a
-                  href="/portfolio/about"
+                  href="/about"
                   className="text-gray-300 hover:bg-cyan-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   About

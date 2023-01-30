@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import React from "react";
+import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Work from "./pages/Work";
@@ -8,21 +9,21 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router>
-      <div className="min-h-screen relative flex flex-col flex-1">
-        <Header />
-        <div className="flex-1 overflow-y-auto bg-gray-700 ">
-          <div className="flex flex-col flex-nowrap">
+    <div className="min-h-screen relative flex flex-col flex-1">
+      <Header />
+      <div className="flex-1 overflow-y-auto bg-gray-700 ">
+        <div className="flex flex-col flex-nowrap">
+          <Router>
             <Routes>
-              <Route path="/portfolio/" element={<Home />} />
-              <Route path="/portfolio/work/" element={<Work />} />
-              <Route path="/portfolio/about/" element={<About />} />
+              <Route exact path="/" element={<Home />} />
+              <Route path="/work" element={<Work />} />
+              <Route path="/about" element={<About />} />
             </Routes>
-          </div>
+          </Router>
         </div>
-        <Footer />
       </div>
-    </Router>
+      <Footer />
+    </div>
   );
 }
 

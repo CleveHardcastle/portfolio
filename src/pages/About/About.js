@@ -1,4 +1,5 @@
 function About() {
+  console.log("about");
   return (
     <div className="md:columns-2 md:mt-20 m-5 h-full">
       <div className="h-full">
