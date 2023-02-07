@@ -53,7 +53,7 @@ function Work() {
               </Typography>
               <Typography className="text-white">
                 A Handlebars application that allows users to share interests
-                and chat with others about those interests.
+                and chat about those interests.
               </Typography>
             </CardBody>
             <CardFooter
