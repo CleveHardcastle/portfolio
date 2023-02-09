@@ -65,7 +65,7 @@ function Work() {
         <div className="md:w-1/3 m-3 md:self-center">
           <Card className="w-full">
             <CardHeader color="blue" className="relative h-56 md:m-4">
-              <a href="https://clevehardcastle.github.io/">
+              <a href="https://portfolio-1ua9.vercel.app/">
                 <img
                   src={process.env.PUBLIC_URL + "/images/portfolio.png"}
                   alt="img-blur-shadow"
