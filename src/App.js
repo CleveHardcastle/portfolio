@@ -4,6 +4,7 @@ import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import Home from "./pages/Home";
 import Work from "./pages/Work";
 import About from "./pages/About";
+import Cert from "./pages/Cert";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -18,6 +19,7 @@ function App() {
               <Route exact path="/" element={<Home />} />
               <Route path="/work" element={<Work />} />
               <Route path="/about" element={<About />} />
+              <Route path="/cert" element={<Cert />} />
             </Routes>
           </Router>
         </div>

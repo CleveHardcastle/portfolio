@@ -33,6 +33,12 @@ function Header() {
                   >
                     About
                   </a>
+                  <a
+                    href="/cert"
+                    className="text-white text-lg hover:bg-cyan-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Certifications
+                  </a>
                 </div>
               </div>
             </div>
@@ -114,6 +120,12 @@ function Header() {
                   className="text-gray-300 hover:bg-cyan-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   About
+                </a>
+                <a
+                  href="/cert"
+                  className="text-gray-300 hover:bg-cyan-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Certifications
                 </a>
               </div>
             </div>

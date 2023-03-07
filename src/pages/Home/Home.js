@@ -4,10 +4,10 @@ function Home() {
       <div className="h-full flex items-center w-full md:w-1/2 text-center md:text-left">
         <div className="fade-in banner flex flex-1 flex-col px-6 py-10 dark:text-white lg:ml-[100px]">
           <h1 className="text-3xl font-bold text-white lg:mr-8 ">
-            Hi, I am Cleve
+            Hello, I am Cleve Hardcastle III
           </h1>
           <p class="my-2 text-lg text-white lg:my-4 lg:text-2xl">
-            Junior Web Developer
+            Full Stack Web Developer
           </p>
           <p class="my-2 text-lg text-white lg:my-4 lg:text-2xl">
             See my{" "}
